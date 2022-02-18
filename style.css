@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin-top: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;;
+    font-family:'Montserrat';
 }
 
 
@@ -26,7 +26,8 @@ body{
 }
 #header h2{
     font-size: 15px;
-    word-spacing: 30px;
+    word-spacing: 5px;
+    
 }
 #main{
     display: flex;
@@ -50,7 +51,7 @@ font-size: 15px;
     width: 300px;
     height: 400px;
     background-color:white;
-    margin-top:-2rem;
+    margin-top:-1.5rem;
     padding: 2rem;
     background-color:hsl(236, 72%, 79%);
     border-radius: 1rem;
@@ -63,8 +64,7 @@ font-size: 15px;
     border-radius: 1rem;
 }
 
-.card1 
- button{
+.card1 button{
     margin-top: -0.1rem;
     justify-content: center;
     background:hsl(236, 72%, 79%) ;
@@ -98,8 +98,7 @@ font-size: 15px;
     
 
 }
-.card3 
- button{
+.card3  button{
     margin-bottom: 1rem;
     justify-content: center;
     background:hsl(236, 72%, 79%) ;
@@ -122,4 +121,18 @@ font-size: 15px;
 .card2 h1{
     color: white;
     font-size: 2rem;
+}
+@media screen and (min-width:375px){
+    #main{
+        flex-wrap: wrap;
+    
+    }
+    .card1{
+        margin-bottom: 5rem;
+    }
+    .card2{
+        margin-bottom: 5rem;
+    }
+ 
+
 }
